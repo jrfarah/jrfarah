@@ -48,12 +48,12 @@ header {
 header:before {
    content: '';
    display: inline-block;
-   vertical-align: middle;
+   vertical-align: 0px;
    height: 100%;
 }
 header .banner {
    display: inline-block;
-   vertical-align: bottom;
+   vertical-align: 120px;
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;s
@@ -62,20 +62,20 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'librebaskerville-regular', serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
-   background-color: rgba(128,128,128,.8);
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0);
+   background-color: rgba(50,50,50,.9);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 20px/1.9em 'librebaskerville-regular', serif;
    color: #FFF;
    margin: 0 auto;
-   width: 70%;
+   width: 90%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
-   background-color: rgba(128,128,128,.8);
+   background-color: rgba(50,50,50,.9);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -185,7 +185,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #0000FF; }
 
 
 /* ------------------------------------------------------------------ */
@@ -204,12 +204,12 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #FFF;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #FFF;
 }
 #about .profile-pic {
    position: relative;
@@ -331,18 +331,18 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
+.physics5 {
+  	width: 100%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
+.physics4 {
+  	width: 80%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
+.hist3 {
+  	width: 60%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -423,11 +423,11 @@ ul#nav li.current a { color: #F06000; }
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
-   text-transform: uppercase;
+   /*text-transform: uppercase;*/
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #000;
 }
 
 /* Portfolio Content */
