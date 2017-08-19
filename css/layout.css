@@ -70,7 +70,7 @@ header .banner-text h1 {
    background-color: rgba(50,50,50,.9);
 }
 header .banner-text h3 {
-   font: 20px/1.9em 'librebaskerville-regular', sans-serif;
+   font: 20px/1.9em 'librebaskerville-regular', serif;
    color: #FFF;
    margin: 0 auto;
    width: 90%;
