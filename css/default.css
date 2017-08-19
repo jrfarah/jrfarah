@@ -57,6 +57,9 @@ time, mark, audio, video {
    vertical-align: baseline;
    background: transparent;
 }
+::-webkit-scrollbar {
+display: none;
+}
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
