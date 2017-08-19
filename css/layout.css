@@ -53,7 +53,7 @@ header:before {
 }
 header .banner {
    display: inline-block;
-   vertical-align: middle;
+   vertical-align: bottom;
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;s
@@ -67,13 +67,15 @@ header .banner-text h1 {
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   background-color: rgba(128,128,128,.8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #FFF;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   background-color: rgba(128,128,128,.8);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
