@@ -1159,7 +1159,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			/*background-image: url("../../images/bg.jpg");*/
-			background-image: url("../../images/background.gif");
+			background-image: url("../../images/background.webp");
 			/*background-image: url("https://i.imgur.com/Tac05Xq.mp4");*/
 			/*background-image: url("https://i.imgur.com/sA6XlgY.gif");*/
 			background-position: center;
